@@ -1,0 +1,18 @@
+.add_border{
+    border: 5px solid green;
+}
+.flex-container {
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(109, 34, 34);
+  }
+  .flex-item-left {
+    flex: 50%;
+  }
+  
+  .flex-item-right {
+    flex: 50%;
+  }
+  hr.solid {
+    border-top: 3px solid #bbb;
+  }
