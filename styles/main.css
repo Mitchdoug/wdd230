@@ -1,18 +1,20 @@
-.add_border{
-    border: 5px solid green;
+body{
+  background-color: powderblue;
 }
-.flex-container {
-    display: flex;
-    flex-direction: row;
-    background-color: rgb(109, 34, 34);
-  }
-  .flex-item-left {
-    flex: 50%;
-  }
-  
-  .flex-item-right {
-    flex: 50%;
-  }
-  hr.solid {
-    border-top: 3px solid #bbb;
-  }
+.top-section{
+    display: grid; 
+    grid-template-columns: 1fr 1fr;
+    grid-column-gap: 1px;
+    background-color: black;
+}
+.picture{
+  width: auto;
+  height: auto; 
+}
+
+.text{
+  background-color: blue;
+}
+hr.solid {
+  border-top: 3px solid #bbb;
+}
