@@ -1,19 +1,28 @@
 body{
-  background-color: powderblue;
+  background-color: white;
 }
 .top-section{
     display: grid; 
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
     grid-column-gap: 1px;
-    background-color: black;
+    grid-column-start: 1;
+    grid-column-end: 2;
+}
+.background{
+  background-color: blue;
+  grid-column-start: 1;
+  grid-column-end: 3;
 }
 .picture{
   width: auto;
   height: auto; 
+  grid-column-start: 1; 
+  padding: 20px;
 }
 
 .text{
   background-color: blue;
+  grid-column-start: 2;
 }
 hr.solid {
   border-top: 3px solid #bbb;
