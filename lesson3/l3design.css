@@ -1,0 +1,49 @@
+nav ul {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin: 0 auto;
+    background-color: #95CEE0;
+}
+ 
+nav li {
+    list-style-type: none;
+    padding: 20px 51px;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'PT Sans', sans-serif;
+}
+
+nav li a{
+    color: black;
+    text-decoration: none;
+    font-size: 1.5em;
+    text-align: center;
+}
+.logo {
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+  }
+.green{
+    background-color: #41FF6A;
+}
+.blue{
+    background-color: #95CEE0;
+}
+.orange{
+    background-color: #FFAC1B;
+}
+.jhem{
+    height: 250px;
+}
+.ptsans{
+    font-family: 'PT Sans', sans-serif;
+}
+.montserrat{
+    font-family: 'Montserrat', sans-serif;
+}
+@media screen and (min-width: 900px){
+    nav ul{
+        flex-direction: row;
+    }
+}
