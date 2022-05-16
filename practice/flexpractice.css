@@ -21,6 +21,14 @@ nav ul {
 nav li {
     list-style-type: none;
     padding: 20px 51px;
+    display:none;
+}
+li:first-child {
+    display: block;
+
+}
+.responsive li {
+    display: block;
 }
 
 nav li a{
@@ -30,8 +38,25 @@ nav li a{
     text-align: center;
 }
 
-@media screen and (min-width: 900px){
-    nav ul{
+/* @media screen and (min-width: 1000px){
+    nav li{
         flex-direction: row;
     }
+    li {
+        display: block;
+    }
+    li:first-child {
+        display: none;
+    }
 }
+@media screen and (min-width: 700px){
+    nav li{
+        flex-direction: column;
+    }
+    li {
+        display: block;
+    }
+    li:first-child {
+        display: none;
+    }
+} */
