@@ -1,4 +1,5 @@
-section {
+ section {
+    display: grid;
     background-color: #ccc;
     border: 1px solid black;
     height: 200px;
@@ -6,28 +7,17 @@ section {
 section p {
     padding: 10px;
 }
-nav ul {
-    display: flex;
+.nav-item {
     justify-content: space-around;
     margin: 0 auto;
-    background-color: aliceblue;
     list-style: none;
     padding: 20px 51px;
     align-items: center;
     font-family: 'Montserrat', sans-serif;
 }
-nav img {
-    height: 75px;
-    width: 75px;
-    border-radius: 50%;
+.Bannerclass{
+    display:none;
 }
-nav li a{
-    color: black;
-    text-decoration: none;
-    font-size: 1.5em;
-    text-align: center;
-}
-
 #spotlights {
     height: 650px;
 }
@@ -37,7 +27,7 @@ nav li a{
 
 main {
     display: grid;
-    grid-template-columns: 1fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
     grid-gap: 10px;
 }
 
@@ -78,10 +68,8 @@ main {
         grid-row: 6/7;
     }
 }
+
 @media screen and (min-width: 850px) {
-    main{
-        grid-template-columns: 1fr 1fr 1fr 1fr;
-    }
     #event{
         grid-column: 1/2;
         grid-row: 1/2;
@@ -115,5 +103,119 @@ main {
         align-items: center;
         justify-items: center;
     }
-   
+} 
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,500;1,400&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+    font-family: 'Roboto', sans-serif;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+nav img {
+    height: 75px;
+    width: 75px;
+    border-radius: 50%;
+}
+.header{
+    border-bottom: 1px solid #E2E8F0;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 1.5rem;
+}
+.hamburger {
+    display: none;
+}
+
+.bar {
+    display: block;
+    width: 25px;
+    height: 3px;
+    margin: 5px auto;
+    -webkit-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+    background-color: #101010;
+}
+.nav-menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style-type: none; 
+}
+
+.nav-item {
+    margin-left: 5rem;
+}
+
+.nav-link{
+    font-size: 1.6rem;
+    font-weight: 400;
+    color: #475569;
+}
+
+.nav-link:hover{
+    color: #482ff7;
+}
+
+.nav-logo {
+    font-size: 2.1rem;
+    font-weight: 500;
+    
+}
+@media only screen and (max-width: 900px) {
+    .nav-menu {
+        position: fixed;
+        left: -100%;
+        top: 5rem;
+        flex-direction: column;
+        background-color: #fff;
+        width: 100%;
+        border-radius: 10px;
+        text-align: center;
+        transition: 0.3s;
+        box-shadow:
+            0 10px 27px rgba(0, 0, 0, 0.05);
+    }
+
+    .nav-menu.active {
+        left: 0;
+    }
+
+    .nav-item {
+        margin: 2.5rem 0;
+    }
+
+    .hamburger {
+        display: block;
+        cursor: pointer;
+    }
+    .hamburger.active .bar:nth-child(2) {
+        opacity: 0;
+    }
+
+    .hamburger.active .bar:nth-child(1) {
+        transform: translateY(8px) rotate(45deg);
+    }
+
+    .hamburger.active .bar:nth-child(3) {
+        transform: translateY(-8px) rotate(-45deg);
+    }
+
 }
