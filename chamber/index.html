@@ -7,69 +7,91 @@
     <title>Document</title>
     <link href = ".//css/chamber.css" rel = "stylesheet">
     <script defer href = "js/chamber.js"></script>
+    <script defer href = "js/windchill.js"></script>
     
 </head>
 <body>
-    <header class="header">
+    <header>
         <nav class="navbar">
+            <button id = "hambutton">
+                <div class="bar1"></div>
+                <div class="bar2"></div>
+                <div class="bar3"></div>
+            </button>
             <a href="index.html" class="nav-logo"> <img src='..//images/logo.jpg'></a>
-            <ul class="nav-menu">
-                <li class="nav-item">
-                    <a href="index.html" class="nav-link">Home</a>
+            <ul id="primaryNav">
+                <li id="nav-item">
+                    <a href="index.html" id="nav-link">Home</a>
                 </li>
-                <li class="nav-item">
-                    <a href="#" class="nav-link">Discover</a>
+                <li id="nav-item">
+                    <a href="#" id="nav-link">Discover</a>
                 </li>
-                <li class="nav-item">
-                    <a href="#" class="nav-link">Directory</a>
+                <li id="nav-item">
+                    <a href="#" id="nav-link">Directory</a>
                 </li>
-                <li class="nav-item">
-                    <a href="#" class="nav-link">Join</a>
+                <li id="nav-item">
+                    <a href="#" id="nav-link">Join</a>
                 </li>
-                <li class="nav-item">
-                    <a href="#" class="nav-link">Contact</a>
+                <li id="nav-item">
+                    <a href="#" id="nav-link">Contact</a>
                 </li>
             </ul>
-            <div class="hamburger">
-                <span class="bar"></span>
-                <span class="bar"></span>
-                <span class="bar"></span>
-            </div>
+            
         </nav>
-</header>
+    </header>
 <main>
-    <div class = "Bannerclass">
+    <!-- <div id = "Bannerclass">
         <h2>🤝🏼 Come join us for the chamber meet and greet Wednesday at 7:00 p.m.</h2>
-    </div>
+    </div> -->
     <section id = "hero">
-        <p>Hero</p>
+        <picture>
+            <source media = "(min-width:900px)" srcset = "images/forestlarge.jpg">
+            <source media = "(min-width:600px)" srcset = "images/forestmedium.jpg">
+            <img src="images/forestsmall.jpg" alt = "greenforest">
+        </picture>
     </section>
     <section id = "event">
-        <p>Event</p>
+        <h2>Community Bingo!</h2>
+        <h3>Every Thursday</h3>
+        <h3>At the Senior Center</h3>
     </section>
     <section id = "weather">
-        <p>Weather</p>
+        <h2>Weather</h2>
+        <h1><span id="temperature">44&deg; F</span></h1>
+        <h3>Sunny</h3>  
+        <h3>Wind Speed:<span id = "windspeed">17</span></h3>
+        <h3>Wind Chill: <span id = "windchill"></span></h3>
+        <!-- <h3>Wind Chill:<span id = "windchill"></span></h3> -->
     </section>
+    
     <section id = "news">
-        <p>News</p>
+        <h2>Mayor Johnson Reelected for another term</h2>
+            <h1>Plans include installing soda machines at every corner</h1>
     </section>
     <section id = "spotlights">
         <section id = "spot1">
-            <p>Spotlight 1</p>
+            <h2>Johnny's Hamburgers</h2>
+            <h1>New Restaurant on Main Street!</h1>
+            <img src = "images/hamburger.png" alt = "hamburger">
         </section>
         <section id = "spot2">
-            <p>Spotlight 2</p>
+            <h2>Grand Re-Opening!</h2>
+            <h1>Shoe Barn</h1>
+            <p>51 South Waters St.</p>
         </section>
         <section id = "spot3">
-            <p>Spotlight 3</p>
+            <h2>Congratulations to Sarah Smith!</h2>
+            <h1>Class of 2022 Valedictorian for Greene High.</h1>
         </section>
     </section>
     <section id = "join">
-        <p>Join</p>
+        <button>Join Us!</button>
     </section>
 </main>
-</body>
 <footer>
 
 </footer>
+</body>
+<script src= "js/chamber.js"></script>
+
 </html>
