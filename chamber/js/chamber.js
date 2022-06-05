@@ -27,4 +27,3 @@ function windchill(chill, temp, windspeed){
 let wchill = windchill(chill, temp, speed);
 console.log(wchill);
 document.getElementById("windchill").innerHTML = wchill;
-

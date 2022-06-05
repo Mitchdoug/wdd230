@@ -1,4 +1,4 @@
- section {
+section {
     display: grid;
     background-color: #ccc;
     border: 1px solid black;
@@ -88,6 +88,7 @@ img {
     margin: 0px;
     text-align: center;
 }
+
 li {
     display: inline;
     list-style: none;
@@ -101,7 +102,94 @@ nav img {
     width: 75px;
     border-radius: 50%;
 }
+picture p{
+        text-align: center;
+}
+#discoverul{
+    display: flex;
+    flex-wrap: wrap;
+    grid-column-gap: 300px;
+    grid-row-gap: 50px;
+    justify-content: center;
+}
+#discoverli{
+    display: flex;
+    grid-gap: 50px;
+    height: 300px;
+    width: 300px;
+}
+#discoverli:hover {
+    box-shadow: 0 0 50px #333;
+  }
 
+/* #discoverli2{
+    display: grid;
+    grid-column: 2/3;
+    grid-row: 1/2;
+    grid-gap: 20px;
+    height: 300px;
+    width: 300px;
+}
+#discoverli3{
+    display: grid;
+    grid-column: 3/4;
+    grid-row: 1/2;
+    grid-gap: 20px;
+    height: 300px;
+    width: 300px;
+}
+#discoverli4{
+    display: grid;
+    grid-column: 1/2;
+    grid-row: 2/3;
+    grid-gap: 20px;
+    height: 300px;
+    width: 300px;
+}
+#discoverli5{
+    display: grid;
+    grid-column: 2/3;
+    grid-row: 2/3;
+    grid-gap: 20px;
+    height: 300px;
+    width: 300px;
+}
+#discoverli6{
+    display: grid;
+    grid-column: 3/4;
+    grid-row: 2/3;
+    grid-gap: 20px;
+    height: 300px;
+    width: 300px;
+}
+#discoverli7{
+    display: grid;
+    grid-column: 1/2;
+    grid-row: 3/4;
+    grid-gap: 20px;
+    height: 300px;
+    width: 300px;
+}
+#discoverli8{
+    display: grid;
+    grid-column: 2/3;
+    grid-row: 3/4;
+    grid-gap: 20px;
+    height: 300px;
+    width: 300px;
+}
+#discoverli1{
+    display: grid;
+    grid-column: 3/4;
+    grid-row: 3/4;
+    grid-gap: 20px;
+    height: 300px;
+    width: 300px;
+} */
+#discoverheading{
+    font-family: 'Open Sans', sans-serif;
+    text-align: center;
+}
 .header{
     border-bottom: 1px solid #E2E8F0;
 }
@@ -147,6 +235,10 @@ nav img {
     font-size: 2.1rem;
     font-weight: 500;
     
+}
+#discover-image{
+    display: flex;
+    flex-wrap: wrap;
 }
 @media screen and (min-width: 600px) {
     main{
@@ -200,9 +292,11 @@ nav img {
     #hero{
         grid-column: 2/4;
         grid-row: 1/3;
-        height: 100%;
+        height: auto;
         justify-content: center;
-    }
+        justify-items: center;
+        max-width: 100%;
+    } 
     #weather{
         grid-column: 1/2;
         grid-row: 2/3;   
@@ -255,7 +349,6 @@ nav img {
         flex-direction: row;
         justify-content: space-around;
         margin: 0 auto;
-        
     }
     #hambutton{
         display:none;
