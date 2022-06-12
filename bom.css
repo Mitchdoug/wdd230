@@ -12,7 +12,10 @@ body {
 	font-size: 18px;
 	font-family: Acme, Arial, sans-serif;
 }
-
+.wrapper {
+	display: grid;
+	grid-template-columns: 1fr 2fr 1fr 1fr;
+ }
 h1 {
 	font-size: 1.5rem;
 }
