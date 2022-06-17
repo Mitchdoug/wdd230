@@ -1,0 +1,90 @@
+{
+    "businesses" : [
+        {   
+            "name" : "Beto's Tacos",
+            "address" : "3463 Lawrenceville-Suwanee Rd STE 110, Suwanee, GA 30024",
+            "phone" : "678-288-9622",
+            "website" : "betostacos.com",
+            "imgurl" : ""
+        },
+        {   
+            "name" : "Taco Mac",
+            "address" : "3443 Lawrenceville-Suwanee Rd, Suwanee, GA 30024",
+            "phone" : "678-730-0941",
+            "website" : "tacomac.com",
+            "imgurl" : ""
+        },
+        {   
+            "name" : "",
+            "address" : "",
+            "phone" : "",
+            "website" : "",
+            "imgurl" : ""
+        },
+        {   
+            "name" : "",
+            "address" : "",
+            "phone" : "",
+            "website" : "",
+            "imgurl" : ""
+        },
+        {   
+            "name" : "",
+            "address" : "",
+            "phone" : "",
+            "website" : "",
+            "imgurl" : ""
+        },
+        {   
+            "name" : "",
+            "address" : "",
+            "phone" : "",
+            "website" : "",
+            "imgurl" : ""
+        },
+        {   
+            "name" : "",
+            "address" : "",
+            "phone" : "",
+            "website" : "",
+            "imgurl" : ""
+        },
+        {   
+            "name" : "",
+            "address" : "",
+            "phone" : "",
+            "website" : "",
+            "imgurl" : ""
+        },{   
+            "name" : "",
+            "address" : "",
+            "phone" : "",
+            "website" : "",
+            "imgurl" : ""
+        },
+        {   
+            "name" : "",
+            "address" : "",
+            "phone" : "",
+            "website" : "",
+            "imgurl" : ""
+        },
+        {   
+            "name" : "",
+            "address" : "",
+            "phone" : "",
+            "website" : "",
+            "imgurl" : ""
+        },
+        {   
+            "name" : "",
+            "address" : "",
+            "phone" : "",
+            "website" : "",
+            "imgurl" : ""
+        }
+    ]
+
+
+
+}
