@@ -2,86 +2,87 @@
     "businesses" : [
         {   
             "name" : "Beto's Tacos",
-            "address" : "3463 Lawrenceville-Suwanee Rd STE 110, Suwanee, GA 30024",
+            "address" : "3463 Lawrenceville-Suwanee Rd STE 110",
             "phone" : "678-288-9622",
             "website" : "betostacos.com",
-            "imgurl" : ""
+            "imgurl" : "./images/betos.png"
         },
         {   
             "name" : "Taco Mac",
-            "address" : "3443 Lawrenceville-Suwanee Rd, Suwanee, GA 30024",
+            "address" : "3443 Lawrenceville-Suwanee Rd",
             "phone" : "678-730-0941",
             "website" : "tacomac.com",
-            "imgurl" : ""
+            "imgurl" : "./images/tacomac.png"
         },
         {   
-            "name" : "",
-            "address" : "",
-            "phone" : "",
-            "website" : "",
-            "imgurl" : ""
+            "name" : "Central City Tavern",
+            "address" : "5019 West Broad Street M122 & M123",
+            "phone" : "(470) 326-5155",
+            "website" : "centralcitytavern.com",
+            "imgurl" : "./images/centralcitytavern.png"
         },
         {   
-            "name" : "",
-            "address" : "",
-            "phone" : "",
-            "website" : "",
-            "imgurl" : ""
+            "name" : "The Diner at Sugar Hill",
+            "address" : "4500 Nelson Brogdon Blvd",
+            "phone" : "(770) 831-0180",
+            "website" : "thedineratsugarhill.com",
+            "imgurl" : "./images/The-Diner-at-Sugarhill.png"
         },
         {   
-            "name" : "",
-            "address" : "",
-            "phone" : "",
-            "website" : "",
-            "imgurl" : ""
+            "name" : "Adrenaline Climbing",
+            "address" : "460 Brogdon Road",
+            "phone" : "(770) 271-1390",
+            "website" : "adrenalineclimbing.com",
+            "imgurl" : "./images/adrenaline.png"
         },
         {   
-            "name" : "",
-            "address" : "",
-            "phone" : "",
-            "website" : "",
-            "imgurl" : ""
+            "name" : "Advance Auto Parts",
+            "address" : "4675 Nelson Brogdon Blvd",
+            "phone" : "(770) 271-2275",
+            "website" : "advanceautoparts.com",
+            "imgurl" : "./images/advance.png"
         },
         {   
-            "name" : "",
-            "address" : "",
-            "phone" : "",
-            "website" : "",
-            "imgurl" : ""
+            "name" : "All Right Glass, Inc.",
+            "address" : "453 East Main St.",
+            "phone" : "770-542-9654",
+            "website" : "allrightglass.com",
+            "imgurl" : "./images/allright.png"
         },
         {   
-            "name" : "",
-            "address" : "",
-            "phone" : "",
-            "website" : "",
-            "imgurl" : ""
-        },{   
-            "name" : "",
-            "address" : "",
-            "phone" : "",
-            "website" : "",
-            "imgurl" : ""
+            "name" : "Big Al's Trampoline Park",
+            "address" : "567 Bunten Road",
+            "phone" : "678-974-3654",
+            "website" : "bigals.com",
+            "imgurl" : "./images/trampoline.png"
+        },
+            {   
+            "name" : "Trees N More Tree removal",
+            "address" : "1240 West Price",
+            "phone" : "678-984-5678",
+            "website" : "treesbegone.com",
+            "imgurl" : "./images/treeremoval.png"
         },
         {   
-            "name" : "",
-            "address" : "",
-            "phone" : "",
-            "website" : "",
-            "imgurl" : ""
+            "name" : "Frontera Tex-Mex Gril",
+            "address" : "4850 Sugar Hill Hwy",
+            "phone" : "770-381-2894",
+            "website" : "fronteratexmex.com",
+            "imgurl" : "./images/frontera.png"
         },
         {   
-            "name" : "",
-            "address" : "",
-            "phone" : "",
-            "website" : "",
-            "imgurl" : ""
+            "name" : "Paradise Axe Throwing",
+            "address" : "948 Technology Court",
+            "phone" : "678-555-9756",
+            "website" : "paradiseaxe.com",
+            "imgurl" : "./images/axe.png"
         },
         {   
-            "name" : "",
-            "address" : "",
-            "phone" : "",
-            "website" : "",
-            "imgurl" : ""
+            "name" : "Old Towne Bakery",
+            "address" : "574 Main St.",
+            "phone" : "770-985-6865",
+            "website" : "oldtownebakery.com",
+            "imgurl" : "./images/bakery.png"
         }
     ]
 
