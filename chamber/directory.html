@@ -4,10 +4,9 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Join us!</title>
-    <link href = ".//css/chamber.css" rel = "stylesheet">
-    <script defer href = "js/chamber.js"></script>
-    <script defer href = "js/windchill.js"></script>
+    <title>Business Directory</title>
+    <script defer src = "./js/cards.js"></script>
+    <link href = "css/cards.css" rel = "stylesheet">
 </head>
 <body>
     <header>
@@ -35,12 +34,15 @@
                     <a href="#" id="nav-link">Contact</a>
                 </li>
             </ul>
-            
         </nav>
     </header>
     <main>
-        <h1 id = "thanks">Thank you for your submission!</h1>
+        <div>
+            <button id = "table-view"><h2>&#9776</h2></button>
+            <button id = "card-view"><h2>&#9783</h2></button>
+        </div>
+        <div class="cards"></div>
+        <table class = "ptable"></table>
     </main>
-    </body>
-    </html>
-    
+</body>
+</html>

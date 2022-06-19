@@ -151,15 +151,6 @@ img {
     margin: 0px;
     text-align: center;
 }
-
-li {
-    display: inline;
-    list-style: none;
-}
-
-a {
-    text-decoration: none;
-}
 nav img {
     height: 75px;
     width: 75px;
