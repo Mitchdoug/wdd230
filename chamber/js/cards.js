@@ -54,4 +54,13 @@ const requestURL = 'https://mitchdoug.github.io/wdd230/chamber/json/data.json';
     list_row.appendChild(td_birthdate);
     document.querySelector('.ptable').appendChild(list_row);
   }
-  document.querySelector("cards").addEventListener("click",function(){document.getElementById("cards").style.display = "none";});
+  document.getElementById('table-view').addEventListener("click", async function () {
+    document.querySelectorAll('cards').style.display = "none";
+    const response = await fetch(requestURL);
+    if (response.ok) {
+      const jsonObject = await response.json();
+      console.log(jsonObject);
+      const business = jsonObject["businesses"];
+      business.forEach(displayTable);
+    }
+  })  

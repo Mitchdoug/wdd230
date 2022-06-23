@@ -138,6 +138,29 @@ img {
     grid-row: 3/4;
     text-align: center;
     height: 100%;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+#weathericon{
+    height: 100px;
+    width: auto;
+}
+#temp-icon{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+#speed-chill{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.windchills{
+    padding-left: 30px;
 }
 #news{
     display:grid;

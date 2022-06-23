@@ -56,12 +56,20 @@
         <h3>At the Senior Center</h3>
     </section>
     <section id = "weather">
+        <div class = "weather">
         <h2>Weather</h2>
-        <h1><span id="temperature">44&deg; F</span></h1>
-        <h3>Sunny</h3>  
-        <h3>Wind Speed:<span id = "windspeed">17</span></h3>
-        <h3>Wind Chill: <span id = "windchill"></span></h3>
+        <div id = "temp-icon">
+        <img id = "weathericon">
+        <h1><span class = "current-temp"></span>&deg;</h1>
+        </div>
+        <h3><span class = "weather-description"></span></h3>  
+        <div id = "speed-chill">
+        <h3 class = "windspeeds">Wind Speed: <span class = "windspeed">17</span></h3>
+        <h3 class = "windchills">Wind Chill: <span class = "windchill"></span></h3>
+        <!-- <p id = "icon-src"></p> -->
+        </div>
         <!-- <h3>Wind Chill:<span id = "windchill"></span></h3> -->
+        </div>
     </section>
     
     <section id = "news">

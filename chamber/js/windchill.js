@@ -23,3 +23,11 @@ else {
 }
 let chill = windchill(temp, speed);
 console.log(chill);
+
+const apiURL = "https://api.openweathermap.org/data/2.5/weather?lat=34&lon=-84&appid=19199c92410025f4c5c3ad28faf06bfa";
+const getWeather = async () => {
+    const response = await fetch(apiURL);
+    jsObject = await response.json();
+    console.log(jsObject);
+  };
+getWeather();
