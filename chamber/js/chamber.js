@@ -38,12 +38,12 @@ const getWeather = async () => {
     document.querySelector('#weathericon').setAttribute('src', iconsrc);
     document.querySelector('#weathericon').setAttribute('alt', desc);
     document.querySelector('.current-temp').textContent = Math.round(jsObject.main.temp);
-    document.querySelector('.windspeed').textContent = jsObject.wind.speed;3
+    document.querySelector('.windspeed').textContent = jsObject.wind.speed;
     document.querySelector('.weather-description').textContent = jsObject.weather[0].main;
     let chill = Math.round((35.74 + (0.6215 * jsObject.main.temp))-(35.75 * Math.pow(jsObject.wind.speed,0.16)) + (0.4275*jsObject.main.temp*Math.pow(jsObject.wind.speed,0.16)));
     console.log(chill);
     if (jsObject.main.temp <= 50 && windspeed > 3){
-        document.querySelector(".windchill").textContent = chill;
+        document.querySelector(".windchill").textContent = chill + "&deg;";
     }
     else {
         document.querySelector(".windchill").textContent = "N/A";

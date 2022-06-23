@@ -117,6 +117,7 @@ nav li a{
 main{
     display:grid;
     grid-template-columns: 1fr;
+    padding: 5px;
 }
 #hero {
     display: grid;
@@ -152,6 +153,7 @@ img {
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
+    padding-right: 28px;
 }
 #speed-chill{
     display: flex;
