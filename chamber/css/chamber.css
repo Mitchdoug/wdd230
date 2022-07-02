@@ -96,9 +96,15 @@ form label.joinFrm input:required:valid{
 }
 .heading{
     grid-column: 2/3;
-    grid-row: 1/2;
+    grid-row: 2/2;
     text-align: center;
     text-decoration: underline;
+}
+.bod{
+    grid-column: 2/3;
+    grid-row: 1/2;
+    text-align: center;
+    text-decoration: underline;   
 }
 .membershiplvls{
     grid-column: 1/2;

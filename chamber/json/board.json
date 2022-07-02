@@ -1,0 +1,30 @@
+{
+    "board": [
+        {
+            "name":"John Smith",
+            "position": "President",
+            "imgurl": "./images/johnsmith.jpg"
+        },
+        {
+            "name":"Jim Yang",
+            "position": "Vice-President", 
+            "imgurl": "./images/jim yang.jpg"
+        },
+        {
+            "name":"Janine Shatner",
+            "position": "Treasurer",
+            "imgurl": "./images/janine.jpg"
+        },
+        {
+            "name":"Jane Doe",
+            "position": "Board Member",
+            "imgurl": "./images/Jane Doe.jpg"
+        },
+        {
+            "name":"Jack Reacher",
+            "position": "Board Member",
+            "imgurl": "./images/Jack Reacher.jpg"
+        }
+    ]
+
+}

@@ -4,10 +4,8 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Join us!</title>
+    <title>Contact</title>
     <link href = ".//css/chamber.css" rel = "stylesheet">
-    <script defer href = "js/chamber.js"></script>
-    <script defer href = "js/windchill.js"></script>
 </head>
 <body>
     <header>
@@ -35,12 +33,25 @@
                     <a href="contact.html" id="nav-link">Contact</a>
                 </li>
             </ul>
-            
         </nav>
     </header>
-    <main>
-        <h1 id = "thanks">Thank you for your submission!</h1>
+    <main class = "formmain">
+    <h1 class = "bod">Board of Directors</h1>
+    <h1 class = "heading">Contact Us</h1>
+    <form action="thankyou.html" method = "get" autocomplete="on">
+        <fieldset>
+        <label class = "joinFrm" for = "fname">First Name *:
+        <input id = "fname" name = "first_name" required></label>
+        <label class = "joinFrm" for = "lname">Last Name *:
+        <input id = "lname" name = "last_name" required></label>
+        <label class = "joinFrm" for = "email">Email *:
+        <input id = "email" type = "email" required name = "email" placeholder = "example@email.com"></label>
+        <label class = "joinFrm" for = "cell">Cell Phone Number *:
+        <input id = "cell" type = "tel" minlength = "10" required name = "telephone"></label>
+        <label class = "joinFrm" >Leave feedback here: <textarea name="comment" placeholder = "Start writing here..."></textarea></label>
+        <input id = "date" type = "hidden" name = "email_sent_date">
+        </fieldset>
+    </form>
     </main>
-    </body>
-    </html>
-    
+</body>
+</html>
