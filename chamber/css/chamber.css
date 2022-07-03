@@ -47,7 +47,41 @@ nav li {
 #thanks{
     text-align: center;
 }
-
+#content {
+    width: 100%;
+    margin: 0 auto;
+    }
+    .cards {
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    justify-content: center;;
+    box-shadow: 5px 10px 8px 5px #888888;
+    vertical-align: bottom;
+    }
+    .cards section {
+    border: 1px solid navy;
+    background-color: lightblue;
+    padding: 30px;
+    text-align: center;
+    width: 300px;
+    margin: 20px;
+    }
+    #boardname {
+        color: navy;
+        text-align: center;
+    }
+    #boardposition {
+        color: navy;
+        text-align: center;
+    }
+    #div1{
+        height: 320px;
+    }
+    #div1 img{
+        padding: 20px 0;
+        width: 90%;
+    }
 /**********Form**********/
 form{
     display:block;
@@ -147,9 +181,7 @@ img {
     height: 100%;
     justify-content: center;
     align-items: center;
-    
 }
-
 #weathericon{
     height: 100px;
     width: auto;

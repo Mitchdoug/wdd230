@@ -2,7 +2,7 @@
     "board": [
         {
             "name":"John Smith",
-            "position": "President",
+            "position": "Board Member",
             "imgurl": "./images/johnsmith.jpg"
         },
         {
@@ -22,7 +22,7 @@
         },
         {
             "name":"Jack Reacher",
-            "position": "Board Member",
+            "position": "President",
             "imgurl": "./images/Jack Reacher.jpg"
         }
     ]

@@ -5,7 +5,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contact</title>
-    <link href = ".//css/chamber.css" rel = "stylesheet">
+    <!-- <link href = ".//css/chamber.css" rel = "stylesheet"> -->
+    <script defer src = "./js/board.js"></script>
+    <link href = "css/cards.css" rel = "stylesheet">
 </head>
 <body>
     <header>
@@ -37,7 +39,9 @@
     </header>
     <main class = "formmain">
     <h1 class = "bod">Board of Directors</h1>
+    <div class="cards"></div>
     <h1 class = "heading">Contact Us</h1>
+    <div class = "formdiv">
     <form action="thankyou.html" method = "get" autocomplete="on">
         <fieldset>
         <label class = "joinFrm" for = "fname">First Name *:
@@ -52,6 +56,8 @@
         <input id = "date" type = "hidden" name = "email_sent_date">
         </fieldset>
     </form>
+    <button type="submit">Submit Form</button>
+    </div>
     </main>
 </body>
 </html>

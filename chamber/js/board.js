@@ -1,4 +1,4 @@
-const requestURL = 'https://mitchdoug.github.io/wdd230/chamber/json/data.json';
+const requestURL = 'https://mitchdoug.github.io/wdd230/chamber/json/board.json';
 
 
   async function getBusiness(requestURL){
@@ -6,7 +6,7 @@ const requestURL = 'https://mitchdoug.github.io/wdd230/chamber/json/data.json';
     if (response.ok) {
       const jsonObject = await response.json();
       console.log(jsonObject);
-      const business = jsonObject["businesses"];
+      const business = jsonObject["board"];
       business.forEach(displayBusiness);
     }
   }
@@ -15,30 +15,24 @@ const requestURL = 'https://mitchdoug.github.io/wdd230/chamber/json/data.json';
   function displayBusiness(business) {
     let card = document.createElement('section');
     let div1 = document.createElement('div');
-    let h2 = document.createElement('h2');
-    let addr = document.createElement('p');
-    let phone = document.createElement('p');
-    let site = document.createElement('a');
-    let linkText = document.createTextNode(`${business.website}`);
+    let name = document.createElement('h2');
+    let position = document.createElement('h3');
     let div2 = document.createElement('div');
     let img = document.createElement('img');
 
-    h2.textContent = business.name ;
-    addr.textContent = `${business.address}`;
-    phone.textContent = `${business.phone}`;
-    
-    site.appendChild(linkText);
-    site.title = `${business.website}`;
-    site.href = business.website;
+    position.textContent = business.position;
+    name.textContent = business.name;
+
     img.setAttribute('src', business.imgurl)
     img.setAttribute('alt', `${business.name}`)
     div1.id = "div1";
     div2.id = "div2";
+    name.id = "boardname";
+    position.id = "boardposition";
+
     div1.appendChild(img);
-    div2.appendChild(h2);
-    div2.appendChild(addr);
-    div2.appendChild(phone);
-    div2.appendChild(site);
+    div2.appendChild(name);
+    div2.appendChild(position);
     card.appendChild(div1);
     card.appendChild(div2);
     document.querySelector('.cards').appendChild(card);

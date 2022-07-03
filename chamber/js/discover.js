@@ -37,6 +37,8 @@ const io = new IntersectionObserver (
 images.forEach(image => {
     io.observe(image);
 })
+
+// ---- Get Date and set localStorage Date ----- //
 let now_date = new Date();
 
 let visit_heading = document.querySelector('.visited');
