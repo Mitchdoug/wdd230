@@ -4,29 +4,72 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Target Audience</title>
-    <link href = "design.css" rel="stylesheet" >
-    <script defer src="../scripts/main.js"></script>
+    <title>Make a reservation</title>
+    <link href = "css/design.css" rel="stylesheet">
+    <script defer src="js/weather.js"></script>
 </head>
 <body>
     <nav>
-        <ul>
-            <li><a href = 'index.html'>Site Purpose</a></li>
-            <li><a href = 'target-audience.html'>Target Audience</a></li>
-            <li><a href = 'sitemap.html'>Site Map</a></li>
-            <li><a href = 'color-scheme.html'>Color Scheme</a></li>
-            <li><a href = 'typography.html'>Typography</a></li>
-            <li><a href = 'wireframes.html'>Wireframes</a></li>
+        <ul class = "ulnav">
+            <li class = "linav"><a href="index.html"><img src='images/templelogos.webp' alt = "logo" class = "templelogo"><span class = "logowords"><strong>Temple Inn<br>& Suites</strong></span></a></li>
+            <li class = "linav"><a href = 'index.html'>Home</a></li>
+            <li class = "linav"><a href = 'temple.html'>Temple</a></li>
+            <li class = "linav"><a href = 'reservation.html' >Reservation</a></li>
+            <li class = "linav"><a href = 'services.html'>Services</a></li>
+            <span class = "socialspan">
+            <li class = "socialnav"><a href = 'facebook.com'><img src='images/facebook.png' alt = "logo" class = "sociallogo"></a></li>
+            <li class = "socialnav"><a href = 'instagram.com'><img src='images/insta.png' alt = "logo" class = "sociallogo"></a></li>
+            <li class = "socialnav"><a href = 'twitter.com'><img src='images/twitter.png' alt = "logo" class = "sociallogo"></a></li>
+            </span>
         </ul>
     </nav>
-    <h1>Target Audience</h1>
-    <p>For this Temple Inn & Suites website, the target audience will be those who are interested in having a place to stay near a temple. This could be something
-        for the future or soon. 
-    </p>
-    <h2>Personas</h2>
-    <h3>Kim Reeves</h3>
-    <p>Mom of 6 looking to take her family on an uplifting temple trip so that they all can have a spiritual experience.</p>
-    <h3>Jim Brown</h3>
-    <p>Young Men's president looking to find a place to stay for a youth temple trip coming up.</p>
+    <main>
+        <form action="thankyou.html" method = "get" autocomplete="on">
+            <fieldset>
+            <label class = "reserveFrm" for="location">Choose a location:
+            <select id="location" name="location">
+                <option value="Atlanta Georgia">Atlanta Georgia</option>
+                <option value="Portland Oregon">Portland Oregon</option>
+                <option value="San Diego California">San Diego California</option>
+                <option value="Orlando Florida">Orlando Florida</option>
+            </select></label>
+            <label class = "reserveFrm" for = "fname">First Name *:
+            <input id = "fname" name = "first_name" required></label>
+            <label class = "reserveFrm" for = "fname">Last Name *:
+            <input id = "fname" name = "first_name" required></label>
+            <label class = "reserveFrm" for = "email">Email *:
+            <input id = "email" type = "email" required name = "email" placeholder = "example@email.com"></label>
+            <label class = "reserveFrm" for = "cell">Cell Phone Number *:
+            <input id = "cell" type = "tel" minlength = "10" required name = "telephone"></label>
+            <label class = "reserveFrm" for = "hstate">Home State/Country *:
+            <input id = "hstate" required name = "home_state" pattern = "[- A-Za-z]+" required></label>
+            <label class = "reserveFrm" for="reserve_date">Check-in date:
+            <input type="date" id="reserve_date" name="date_in"></label>
+            <label class = "reserveFrm" for="dateout">Check-out date:
+            <input type="date" id="dateout" name="date_out"></label>
+            <label class = "reserveFrm" for="numrooms">Number of Rooms:
+                <select id="numrooms" name="number_rooms">
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                </select></label>
+            <label class = "reserveFrm" >Do you need any special accomodations? <textarea name="accommodations" placeholder = "Start writing here..."></textarea></label>
+            <input id = "date" type = "hidden" name = "email_sent_date">
+            </fieldset>
+            <button type="submit">Submit Form</button>
+        </form>
+        <img src = "images/oakland_temple.png">
+    </main>    
+    <footer>
+        <div class = "footerdiv">
+            <ul class = "footer">
+                <li class = "footerli"><a href="contact.html">Contact</a></li>
+                <li class = "footerli"><a href="privacy.html">Privacy Policy</a></li>
+                <li class = "footerli"><a href="careers.html">Careers</a></li>    
+            </ul>
+            <a href="https://goo.gl/maps/NUzTPAJwjvH2B51o7" target = "_blank" class = "maplink">4800 Montgomery Ln #300, Bethesda, MD 20814</a>
+        </div>
+    </footer>
 </body>
 </html>

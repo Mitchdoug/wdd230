@@ -1,12 +1,13 @@
 /*************** Navigation bar **************/
 nav{
     width:auto;
+    border-bottom: 1px solid #637074;
 }
 .ulnav {
     display: flex;
     justify-content: left;
     margin: 0 0;
-    background-color: #fac9b8;
+    background-color: white;
     align-items: center;
 }
 .linav {
@@ -22,7 +23,7 @@ nav{
     float: right;
 }
 nav li a{
-    color: #444054;
+    color: #637074;
     text-decoration: none;
     font-size: 1.5em;
     text-align: center;
@@ -51,9 +52,159 @@ a:nth-child(1){
 }
 /******************End Navbar*****************/
 /******************Home***********************/
-.topimage{
+main {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    grid-template-rows: 200px 300px 200px 300px;
+}
+.top-image{
+    width: 750px;
+}
+.atlanta{
+    padding: 30px 0 0 20px;
+}
+.calltoaction{
+    background-color: #8693AB;
+    padding: 10px 10px 10px 10px;
+    text-align: center;
+    color: black;
+    /* width: 100%; */
+    height: 75px;
+    grid-column: 1/5;
+    grid-row: 1/2;
+    max-width: 100%;
+}
+
+/****************Footer**********************/
+.footerdiv{
+    border-top: 1px solid #637074 ;
+}
+.footer{
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+}
+.footerli{
+    padding-top: 20px;
+    padding-right: 25px;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'PT Sans', sans-serif;
+}
+.maplink{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'PT Sans', sans-serif;
+    padding-bottom: 20px;
+    text-decoration: none;
+}
+/*****************Atl Card*******************/
+.atlanta{
+    grid-column: 1/2;
+    grid-row:2/3;
+    margin-top: -100px;
+}
+.atltmple{
+    display: grid;
+    padding-left: 260px;
+    grid-column: 1/2;
+    grid-row: 3/4;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'PT Sans', sans-serif;
+}
+.wcard{
+    background-color: #AAB9CF;
+    width: 300px;
+    text-align: center;
+    margin-left:0px;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'PT Sans', sans-serif;
+}
+.factcard{
+    background-color: #BDD4E7;
+    padding-left: 22px;
+    padding-right: 21px;
+    margin-left: 17px;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'PT Sans', sans-serif;
+}
+.atldescribe{
+    display: flex;
+    flex-direction: inline;
+}
+.ourcompany{
+    background-color: #637074;
+    width: 450px;
+    grid-row: 2/3;
+    margin: -90px;  
+    margin-left: 25px;
+    height: 200px;
+    padding: 0px 20px 0px 20px;
+
+}
+.slctemple{
+    grid-column: 2/4;
+    grid-row:3/5;
+    margin-left: 25px;
+    width:1000px;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+    margin-bottom: 20px;
+}
+.nohassle{
+    grid-column: 3/4;
+    grid-row: 3/5;
+    color:#637074;
+}
+/************Form***************/
+form{
+    display:block;
+    grid-column: 2/3;
+}
+form fieldset{
+    margin: 20px 0;
+    border: 2px solid darkgray;
+    border-radius: 10px;
+    padding: 20px;
+    width: 280px;
+}
+form label.reserveFrm{
+        display: block;
+        padding-top: 5px;
+}
+form label.reserveFrm input, form label.reserveFrm select, form label.reserveFrm textarea{
+    display:block;
+    border: solid 1px darkgray;
+    border-radius: 3px;
+    padding: 10px;
+    background-color: rgb(0,0,0,0.1);
     width: 100%;
-    
+    max-width: 250px;
+}
+form button{
+    border: none;
+    background-color: #482ff7;
+    color: white;
+    width: 96%;
+    max-width: 200px;
+    border-radius: 100px;
+    padding: 10px;
+    margin: 0 0 0 70px;
+}
+form label.reserveFrm input:required{
+    border-left: red solid 5px;
+}
+form label.reserveFrm input:required:valid{
+    border-left: green solid 5px;
+}
+.formmain{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-items: center;
 }
 @media screen and (min-width: 900px){
     nav ul{

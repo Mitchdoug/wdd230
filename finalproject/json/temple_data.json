@@ -1,0 +1,53 @@
+{
+"temples" : [
+    {
+        "imgurl" : "images/atlanta_temple_lds.png",
+        "name" : "Atlanta Georgia Temple",
+        "address" : "6450 Barfield Rd Sandy Springs, GA",
+        "phone" : "(770) 393-3698",
+        "email" : "Atlgeorgiatemple@churchofjesuschrist.org",
+        "services" : ["Patron housing available", "Distribution center nearby"],
+        "history" : "Dedicated in 1983, the Atlanta temple was the first in the southeast.",
+        "ordinance schedule" : "Tues-Saturday 8am - 9pm",
+        "session schedule" : "Every 30 minutes",
+        "closure schedule" : "Monday, 26 September 2022 - Monday, 10 October 2022"
+    },
+    {
+        "imgurl" : "images/Sandiegotemple.jpg",
+        "name" : "San Diego Temple",
+        "address" : "7474 Charmant Dr. San Diego, CA",
+        "phone" : "858-622-0991",
+        "email" : "@churchofjesuschrist.org",
+        "services" : ["Clothing rental available","Distribution center nearby"],
+        "history" : "The San Diego Temple was dedicated in 1993.",
+        "ordinance schedule" : "Tues-Saturday 8am - 9pm",
+        "session schedule" : "Every 30 minutes",
+        "closure schedule" : "Saturday, 1 October 2022"
+    },
+    {
+        "imgurl" : "images/portlandtemple.jpg",
+        "name" : "Portland Oregon Temple",
+        "address" : "13600 Cruse Oaks Blvd Lake Oswego OR",
+        "phone" : "503-639-7066",
+        "email" : "@churchofjesuschrist.org",
+        "services" : ["Clothing rental","Distribution center nearby"],
+        "history" : "The Portland Temple was dedicated in 1989",
+        "ordinance schedule" : "Tues-Saturday 8am - 9pm",
+        "session schedule" : "Every 30 minutes",
+        "closure schedule" : "Monday, 18 July 2022 - Monday, 15 August 2022"
+    },
+    {
+        "imgurl" : "images/orlandotemple.jpg", 
+        "name" : "Orlando Florida Temple",
+        "address" : "9000 Windy Ridge Road Windermere FL",
+        "phone" : "407-876-0022",
+        "email" : "@churchofjesuschrist.org",
+        "services" : ["Clothing rental", "Distribution center nearby"],
+        "history" : "The Orlando Temple was dedicated in 1994",
+        "ordinance schedule" : "Tues-Saturday 8am - 9pm",
+        "session schedule" : "Every 30 minutes",
+        "closure schedule" : "Sunday, 28 August 2022 - Monday, 19 September 2022"
+    }
+]
+
+}

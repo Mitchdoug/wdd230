@@ -4,9 +4,9 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Website Planning Document</title>
-    <link href = "css/design.css" rel="stylesheet" >
-    <script defer src="../scripts/main.js"></script>
+    <title>Temple Inn & Suites</title>
+    <link href = "css/design.css" rel="stylesheet">
+    <script defer src="js/weather.js"></script>
 </head>
 <body>
     <nav>
@@ -24,7 +24,53 @@
         </ul>
     </nav>
     <main>
-        <img src = "images/atlanta_temple_lds.png" class = "topimage">
+        <div class = "calltoaction">
+            <h2>Visit a temple</h2>
+            <a href = "reservation.html">Book now</a>
+        </div>
+        <div class = "atlanta">
+        <img src = "images/atlanta_temple_lds.png" class = "top-image">
+        <h2 class = "atltmple">Atlanta Georgia Temple</h2>
+        <div class = "atldescribe">
+            <div class = "wcard">
+                <h3 class = "weatheratl">Weather</h3>
+                <img href = "" alt = "" id = "weathericon">
+                <h3 class = "weather-description"></h3>
+                <h3 ><span class = "current-temp"></span> &deg;</h3>
+                <h4 ><span class="humidity"></span> % Humidity</h4>
+            </div>
+            <div class = "factcard">
+                <h3>Facts</h3>
+                <p>Dedicated on June 1, 1983, the Atlanta Temple was 
+                    <br>the first temple built in the southeast</p>
+                <p>Metro Atlanta has many wards with dedicated saints</p>
+                <p>The crystal from the original Celestial Room chandelier <br>of
+                    the Atlanta Georgia Temple was crushed and <br> incorporated
+                    into the Celestial Room art glass windows <br>of the remodeled temple. </p>
+            </div>
+        </div>
+        </div>
+        <div class = "rightside">
+        <div class = "ourcompany">
+            <h2>Affordable temple accomodations for everyone.</h2>
+            <p>This is the motto that we live by here at Temple Inn & Suites. We are dedicated to bringing you an experience that is spiritual, peaceful and uplifting.</p>
+        </div>
+        <!-- <div class = "nohassle">
+            <h2>Hassle-Free Cancellations</h2>
+            <p>Going to the temple should never be a stressful experience. Stay stress-free with free cancellations up to 24-hours before your stay.</p>
+        </div> -->
+        <img src = "images/slccollage.png" alt = "Salt Lake City Temple" class = "slctemple">
+        </div>
     </main>
+    <footer>
+        <div class = "footerdiv">
+            <ul class = "footer">
+                <li class = "footerli"><a href="contact.html">Contact</a></li>
+                <li class = "footerli"><a href="privacy.html">Privacy Policy</a></li>
+                <li class = "footerli"><a href="careers.html">Careers</a></li>    
+            </ul>
+            <a href="https://goo.gl/maps/NUzTPAJwjvH2B51o7" target = "_blank" class = "maplink">4800 Montgomery Ln #300, Bethesda, MD 20814</a>
+        </div>
+    </footer>
 </body>
 </html>
