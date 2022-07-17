@@ -413,7 +413,14 @@ picture p{
         justify-content: center;
         justify-items: center;
         max-width: 100%;
+
     } 
+    #hero img{
+        width : auto;
+        min-height : 450px;
+        object-fit: cover;
+    }
+
     #weather{
         grid-column: 1/2;
         grid-row: 2/3;   

@@ -22,7 +22,6 @@ const requestURL = 'https://mitchdoug.github.io/wdd230/chamber/json/data.json';
     let linkText = document.createTextNode(`${business.website}`);
     let div2 = document.createElement('div');
     let img = document.createElement('img');
-
     h2.textContent = business.name ;
     addr.textContent = `${business.address}`;
     phone.textContent = `${business.phone}`;
