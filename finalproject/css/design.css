@@ -206,6 +206,42 @@ form label.reserveFrm input:required:valid{
     grid-template-columns: 1fr 1fr 1fr;
     justify-items: center;
 }
+/*******************Cards**********************/
+#content {
+    width: 100%;
+    margin: 0 auto;
+    }
+    .cards {
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    vertical-align: bottom;
+    align-items: center;
+    }
+    .cards section {
+    border: 1px solid navy;
+    border-radius: 5px;
+    background-color: #8693AB;
+    padding: 30px;
+    text-align: center;
+    width: 300px;
+    margin: 20px;
+    }
+    #boardname {
+        color: navy;
+        text-align: center;
+    }
+    #boardposition {
+        color: navy;
+        text-align: center;
+    }
+    #div1{
+        height: 320px;
+    }
+    #div1 img{
+        padding: 20px 0;
+        width: 90%;
+    }
 @media screen and (min-width: 900px){
     nav ul{
         flex-direction: row;
