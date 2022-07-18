@@ -20,9 +20,9 @@
         "email" : "SanDiegoTemple@churchofjesuschrist.org",
         "services" : "Clothing rental available, Distribution center nearby",
         "history" : "The San Diego Temple was dedicated in 1993.",
-        "ordinanceschedule" : "Tues-Saturday 8am - 9pm",
-        "sessionschedule" : "Every 30 minutes",
-        "closureschedule" : "Saturday, 1 October 2022"
+        "ordinance_schedule" : "Tues-Saturday 8am - 9pm",
+        "session_schedule" : "Every 30 minutes",
+        "closure_schedule" : "Saturday, 1 October 2022"
     },
     {
         "imgurl" : "images/portlandtemple.png",
@@ -32,9 +32,9 @@
         "email" : "PortlandTemple@churchofjesuschrist.org",
         "services" : "Clothing rental, Distribution center nearby",
         "history" : "The Portland Temple was dedicated in 1989",
-        "ordinanceschedule" : "Tues-Saturday 8am - 9pm",
-        "sessionschedule" : "Every 30 minutes",
-        "closureschedule" : "Monday, 18 July 2022 - Monday, 15 August 2022"
+        "ordinance_schedule" : "Tues-Saturday 8am - 9pm",
+        "session_schedule" : "Every 30 minutes",
+        "closure_schedule" : "Monday, 18 July 2022 - Monday, 15 August 2022"
     },
     {
         "imgurl" : "images/orlandotemple.jpg", 
@@ -44,9 +44,9 @@
         "email" : "OrlandoTemple@churchofjesuschrist.org",
         "services" : "Clothing rental, Distribution center nearby",
         "history" : "The Orlando Temple was dedicated in 1994",
-        "ordinanceschedule" : "Tues-Saturday 8am - 9pm",
-        "sessionschedule" : "Every 30 minutes",
-        "closureschedule" : "Sunday, 28 August 2022 - Monday, 19 September 2022"
+        "ordinance_schedule" : "Tues-Saturday 8am - 9pm",
+        "session_schedule" : "Every 30 minutes",
+        "closure_schedule" : "Sunday, 28 August 2022 - Monday, 19 September 2022"
     }
 ]
 

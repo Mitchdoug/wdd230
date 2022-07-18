@@ -32,9 +32,9 @@ const requestURL = 'https://mitchdoug.github.io/wdd230/finalproject/json/temple_
     phone.textContent = `${temple.phone}`;
     email.textContent = `${temple.email}`;
     history.textContent = `${temple.history}`;
-    oschedule.textContent = `${temple.ordinanceschedule}`;
-    cschedule.textContent = `${temple.closureschedule}`;
-    sschedule.textContent = `${temple.sessionschedule}`;
+    oschedule.textContent = `${temple.ordinance_schedule}`;
+    cschedule.textContent = `${temple.closure_schedule}`;
+    sschedule.textContent = `${temple.session_schedule}`;
     img.setAttribute('src', temple.imgurl)
     img.setAttribute('alt', `${temple.name}`)
     div1.id = "div1";
