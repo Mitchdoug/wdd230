@@ -357,7 +357,7 @@ picture p{
     display: flex;
     flex-wrap: wrap;
 }
-@media screen and (min-width: 600px) {
+@media screen and (max-width: 600px) {
     main{
         grid-template-columns: repeat(6, 1fr);
     }

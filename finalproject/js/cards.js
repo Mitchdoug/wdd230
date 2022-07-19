@@ -35,8 +35,8 @@ const requestURL = 'https://mitchdoug.github.io/wdd230/finalproject/json/temple_
     oschedule.textContent = `${temple.ordinance_schedule}`;
     cschedule.textContent = `${temple.closure_schedule}`;
     sschedule.textContent = `${temple.session_schedule}`;
-    img.setAttribute('src', temple.imgurl)
-    img.setAttribute('alt', `${temple.name}`)
+    img.setAttribute('src', temple.imgurl);
+    img.setAttribute('alt', `${temple.name}`);
     div1.id = "div1";
     div2.id = "div2";
     div1.appendChild(img);

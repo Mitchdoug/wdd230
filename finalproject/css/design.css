@@ -68,7 +68,6 @@ main {
     padding: 10px 10px 10px 10px;
     text-align: center;
     color: black;
-    /* width: 100%; */
     height: 75px;
     grid-column: 1/5;
     grid-row: 1/2;
@@ -206,6 +205,10 @@ form label.reserveFrm input:required:valid{
     grid-template-columns: 1fr 1fr 1fr;
     justify-items: center;
 }
+.Headerreserve{
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'PT Sans', sans-serif;
+}
 /*******************Cards**********************/
 #content {
     width: 100%;
@@ -242,8 +245,156 @@ form label.reserveFrm input:required:valid{
         padding: 20px 0;
         width: 90%;
     }
-@media screen and (min-width: 900px){
+/******************services*******************/
+.service-grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: auto;
+    background-color: #AAB9CF;
+}
+.services{
+    grid-column: 2/3;
+    grid-row:1/2;
+    margin-left: 80px;
+}
+.hgym{
+    grid-column: 1;
+    grid-row:1/2;
+    height: 250px;
+    align-items: right;
+    margin-left: 200px;
+}
+.hpool{
+    grid-column: 3;
+    grid-row:1/2;
+    height: 250px;
+    margin-left: 80px;
+}
+.amenitieslist{
+    list-style-type: none;
+}
+.reception{
+    padding-top: 40px;
+    grid-column: 3;
+    grid-row:2/3;
+    text-align: left;
+    margin-left:-200px;
+}
+.missionaries{
+    padding-top: 40px;
+    grid-column: 1;
+    grid-row: 2/3;
+    text-align: right;
+    margin-right: -200px;
+}
+@media screen and (max-width: 600px){
     nav ul{
-        flex-direction: row;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        margin: 0 auto;
+        padding: 0px;
     }
+    main {
+        display: flex;
+        flex-direction: column;
+        /* display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: auto; */
+    }
+    .calltoaction {
+        width: 100%; 
+    }
+    .top-image {
+        width: 100%;;
+    }
+    .slctemple{
+        width: 100%;
+    }
+    .ourcompany{
+        width: 100%;
+        margin: 0px;
+    }
+    .service-grid{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        margin: 0 auto;
+    }
+    .services{
+        margin:0px;
+    }
+    .hgym{
+        margin: 0px;
+    }
+    .hpool{
+        margin: 0px;
+        width: 100%;
+    }
+    .amenitieslist{
+        list-style-type: none;
+    }
+    .reception{
+        margin: 0px;
+    }
+    .missionaries{
+        margin: 0px;
+    }
+
+}
+@media screen and (max-width: 900px){
+    nav ul li{
+        width:100%;
+    }
+    .calltoaction{
+        width: 100%;
+        text-align: center;
+        align-items: center;
+    }
+    main {
+        display: flex;
+        flex-direction: column;
+        /* display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: auto; */
+    }
+    .calltoaction {
+        width: 100%; 
+    }
+    .top-image {
+        width: 100%;;
+    }
+    .slctemple{
+        width: 100%;
+    }
+    .ourcompany{
+        width: 100%;
+        margin: 0px;
+    }
+    .service-grid{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        margin: 0 auto;
+    }
+    .services{
+        margin:0px;
+    }
+    .hgym{
+        margin: 0px;
+    }
+    .hpool{
+        margin: 0px;
+        width: 100%;
+    }
+    .amenitieslist{
+        list-style-type: none;
+    }
+    .reception{
+        margin: 0px;
+    }
+    .missionaries{
+        margin: 0px;
+    }
+    
 }

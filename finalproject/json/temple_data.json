@@ -8,9 +8,9 @@
         "email" : "Atltemple@churchofjesuschrist.org",
         "services" : "Patron housing available, Distribution center nearby",
         "history" : "Dedicated in 1983, the Atlanta temple was the first in the southeast.",
-        "ordinanceschedule" : "Tues-Saturday 8am - 9pm",
-        "sessionschedule" : "Every 30 minutes",
-        "closureschedule" : "Monday, 26 September 2022 - Monday, 10 October 2022"
+        "ordinance_schedule" : "Tues-Saturday 8am - 9pm",
+        "session_schedule" : "Every 30 minutes",
+        "closure_schedule" : "Monday, 26 September 2022 - Monday, 10 October 2022"
     },
     {
         "imgurl" : "images/Sandiegotemple.jpg",
@@ -25,7 +25,7 @@
         "closure_schedule" : "Saturday, 1 October 2022"
     },
     {
-        "imgurl" : "images/portlandtemple.png",
+        "imgurl" : "images/portlandtemple.jpg",
         "name" : "Portland Oregon Temple",
         "address" : "13600 Cruse Oaks Blvd Lake Oswego OR",
         "phone" : "503-639-7066",
